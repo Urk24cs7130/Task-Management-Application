@@ -1,0 +1,33 @@
+"Create a folder like "task-manager" ":
+
+folder : task-manager
+
+
+"create backend in task-manager" :
+
+mkdir backend
+
+cd backend
+npm init -y
+
+
+
+npm install express cors jsonwebtoken bcryptjs nodemon
+
+
+npx nodemon server.js
+
+
+"Create frontend in task-manager" :
+
+
+cd task-manager
+npx create-react-app frontend
+
+
+
+cd frontend
+
+npm install axios
+
+npm start
